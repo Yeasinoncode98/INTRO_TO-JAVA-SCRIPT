@@ -31,3 +31,5 @@ console.log(age);
 
 // variable declare weight
 //variable is as same as c program
+
+//
