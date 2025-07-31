@@ -1,0 +1,18 @@
+/**
+ * MATH NEEDED FOR PROGRAMMING
+ * 
+ * 1.NUMBER +VE, -VE, 0 [50,-9,0]
+ * 2.INTEGER: 2, 38 [EVEN,ODD]; 2,4,897
+ * 3.FLOAT: 5.6,2.29.
+ * 4. OPERATION: +,-,*, /
+ * 5. MORE OPERATIONS:  % []
+ * 6. PERCENTAGE : 5%, 50 TAKA ER 10% KOTO
+ * 8.AVG: 14,18,16
+ * 9.SUM : 14,18,28
+ * 9. MAX / MIN: 14,18,17
+ * 10.SERIES: 
+ * 11.AREA: TRIANGLE 1/2 * HEIGHT
+ * 12. 
+ * 
+ * 
+ */
