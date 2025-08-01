@@ -6,28 +6,28 @@ const isPassed = true;
 // let isDeveloper;
 const subjects = ['bangla', 'English', 'physics','Math'];
 
-const bottle = ['White'];
+const bottlew = ['White'];
 const bottleColor = 'White';
 const bottlePrice = 45;
 const bottleDrinks = 'water';
 
 //Object
 //non primitive
-                  //left er side gulake key / property bole 
-                  //right side er gulake value bole 
-                  //                   
-                  
-                  
-                  
-  const bottle = {
+
+  const bottlee = {
     brand: 'apple',
     price: 45,
     color: 'White',
     isClean: false,
 
-}
+};
+
+
+//left er side gulake key / property bole 
+                  //right side er gulake value bole 
+                                   
+
 //non primitive
-//
 const subject = {
     name : 'biology',
     teacher: 'rasheda mam',
