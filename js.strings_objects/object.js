@@ -38,3 +38,6 @@ const subject = {
         marks : 100,
     }
 }
+
+const numberofcount = Object.keys(subject).length;
+console.log(numberofcount);

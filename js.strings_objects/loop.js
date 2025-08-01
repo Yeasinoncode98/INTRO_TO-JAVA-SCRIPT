@@ -10,17 +10,17 @@ const mobile = {
 
 
 //for in : Object
-// for(const prop in mobile){
-    //     console.log(prop);
-    //     console.log(mobile[prop]);
-    // }
+for(const prop in mobile){
+        console.log(prop);
+        console.log(mobile[prop]);
+    }
     
     
 
 //for of : Array
-const keys = Object.keys(mobile);
-console.log(keys);
+// const keys = Object.keys(mobile);
+// console.log(keys);
 
-for(const key of keys){
-    console.log(key, ':' , mobile[key]);
-}
+// for(const key of keys){
+//     console.log(key, ':' , mobile[key]);
+// }
