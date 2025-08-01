@@ -1,10 +1,11 @@
-let text = 'i am a good students get A+ and eat avacado';
-let count = 0;
+let text =' hello from chatgpt to me brother how are you'.trim();
 
-for (let i = 0; i<text.length; i++){
-    if(text[i] === 'a'){
-        count++;
-    }
+let words = text.split(" ");
+
+for ( let i = 0; i <words.length; i++){
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
 }
 
-console.log("Number count :",count);
+console.log(words.join(" "));
+
+//what is the main diff between primitive vs non-primitive 
