@@ -7,26 +7,13 @@ var person01 = {
 
 }
 
-
+//ID part
 
 var lastThreeCh = person01.lastName.slice(0,3).toLowerCase();
 var result = lastThreeCh + person01.employeeId+ "@"+person01.companyName.toLowerCase() + '.com';
 console.log("ID :",result);
 
-// var person01 = {
-//     firstName : 'ismail',
-//     lastName : 'josim',
-//     employeeId : 101,
-//     departmentCode : 'HR',
-//     companyName: 'alphacorp'
-
-// }
-
-// if(person01.lastName.length < 3){
-// let firstCh = person01.firstName.slice(0,6).toLowerCase();
-// let password = person01.firstName.slice(3,6).toLowerCase(); + "#" + person01.departmentCode;
-// console.log(password);
-// }
+//UserName part
 
 let userName = "";
 
@@ -40,6 +27,7 @@ else{
 
 console.log("UserName : ",userName);
 
+//Password part
 
 let password = "";
 
