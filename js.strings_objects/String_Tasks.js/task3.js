@@ -1,4 +1,4 @@
-let text = "Education";
+let text = "I dont know you please comeback to the school at time";
 text = text.toLowerCase();
 
 if (text.includes('a') && text.includes('e') && text.includes('i') && text.includes('o') && text.includes('u')){
@@ -6,7 +6,7 @@ if (text.includes('a') && text.includes('e') && text.includes('i') && text.inclu
 }
 
 else {
-    console.log("Yes,Vowles are missing");
+    console.log("Yes,Vowels are missing");
 }
 
 console.log(text.length);

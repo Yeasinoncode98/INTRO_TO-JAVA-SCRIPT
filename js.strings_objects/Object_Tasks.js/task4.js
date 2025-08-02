@@ -5,6 +5,6 @@ let student = {
     isStudent: true
 };
 
-const numberofproperties = Object.keys(student).length;
+const properties = Object.keys(student).length;
 
-console.log(numberofproperties);
+console.log(properties);
