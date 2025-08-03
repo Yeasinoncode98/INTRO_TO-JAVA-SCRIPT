@@ -1,5 +1,5 @@
 /** Problem 04 - (Delete / Store) */
-var fileName= "slipdf.pdf";
+var fileName= "txt.docx";
 //write your code here
 
 if(fileName.startsWith('#')){
