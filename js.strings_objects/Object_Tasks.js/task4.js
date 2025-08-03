@@ -2,7 +2,8 @@ let student = {
     name: 'Ariana Grande',
     age: 21,
     city: 'Gaibandha',
-    isStudent: true
+    isStudent: true,
+    area: 'Arjghat',
 };
 
 const properties = Object.keys(student).length;

@@ -19,5 +19,5 @@ let student= {
 };
 
 for(let properties in student){
-    console.log(`key: ${properties} | value: ${ student[properties]}`);
+    console.log(`key: ${properties} | value: ${student[properties]}`);
 }
