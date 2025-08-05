@@ -83,3 +83,23 @@ return vhag;
 
 let div = vhagkorarMachine(50,10);
 console.log(div);
+
+
+//
+
+function multipi (){
+    let a = 20;
+    let b = 30;
+
+    let gunn;
+
+    gunn = a * b;
+
+    console.log("Multipi if two digits is : ",gunn);
+    return gunn;
+}
+
+let cross = multipi();
+
+console.log("Cross is : ",cross + ' taka ');
+
