@@ -24,15 +24,17 @@ const first_class_marks = exam_marks[0];
 //it can be done in one line like 
 // console.log(exam_marks[0][0]);
 
-exam_marks[0][1] = 66; //0 index er 1 number index e change anse 
+console.log(exam_marks);
 
-exam_marks[1].pop();
+// exam_marks[0][1] = 66; //0 index er 1 number index e change anse 
 
-exam_marks[1].push(44);
+// exam_marks[1].pop();
+
+// exam_marks[1].push(44);
 
 // console.log(exam_marks);
 
-for (const marks of exam_marks){
-    console.log(marks);
-}
+// for (const marks of exam_marks){
+//     console.log(marks);
+// }
 

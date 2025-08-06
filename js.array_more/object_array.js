@@ -15,13 +15,13 @@ employess[0].name = 'Ashraf';
 // console.log(employess[0]);
 // console.log(employess[3].designation);
 
-// for (const employee of employess){
-//     console.log(employee.salary,employee.designation);
-// }
-
-for (const emp of employess){
-    const person = emp;
-    const personInfo = person.name + " : " + person.salary;
-    console.log(personInfo);
-
+for (const employee of employess){
+    console.log(employee.salary,employee.designation);
 }
+
+// for (const emp of employess){
+//     const person = emp;
+//     const personInfo = person.name + " : " + person.salary;
+//     console.log(personInfo);
+
+// }

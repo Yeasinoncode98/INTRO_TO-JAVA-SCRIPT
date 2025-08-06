@@ -1,10 +1,10 @@
 //Primitive type data
 
-let price = 25;
-let comp_price = price;
+// let price = 25;
+// let comp_price = price;
 
 // price = 20;
-comp_price = 15;
+// comp_price = 15;
 
 // console.log(price);
 // console.log(comp_price);
@@ -17,14 +17,14 @@ const comp_products = [];
 
 // const comp_products = products;
 
-for(const product of products){
-    comp_products.push(product);
-}
+// for(const product of products){
+//     comp_products.push(product);
+// }
 
 
 
-comp_products[0] = 15;
-products[1] = 55;
+// comp_products[0] = 15;
+// products[1] = 55;
 
 // console.log(products);
 // console.log(comp_products);
