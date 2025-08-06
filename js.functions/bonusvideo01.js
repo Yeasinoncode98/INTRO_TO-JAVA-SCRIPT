@@ -99,7 +99,7 @@ function multipi (){
     return gunn;
 }
 
-let cross = multipi();
+ let cross = multipi();
 
 console.log("Cross is : ",cross + ' taka ');
 
