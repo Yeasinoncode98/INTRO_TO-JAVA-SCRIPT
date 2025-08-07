@@ -32,3 +32,19 @@ console.log(',,,,,')
 console.log(',,,,,')
 
 brushTeeth();
+
+
+// 
+
+function macherTorkari(mach,shobji,mosla){
+    console.log("Tel gorom korun");
+    console.log("Moshla Foran");
+    console.log("shakShobji Din");
+    console.log(mach + " Din ");
+
+    return "Sushadu macher torkari prostut";
+}
+
+
+const result = macherTorkari("Ilish", "Alu", "Holud");
+console.log(result);
