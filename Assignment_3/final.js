@@ -1,4 +1,4 @@
-/** Problem -01 ( Divide the Asset ) */
+node/** Problem -01 ( Divide the Asset ) */
 var area = 15;
 var brother = 2;
 //write your code here
