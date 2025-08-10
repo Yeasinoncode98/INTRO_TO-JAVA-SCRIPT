@@ -30,7 +30,7 @@
     if(year % 100 !== 0 && year % 4 === 0){
         return true;
     }
-    else if (year % 100 === 0 && year % 400){ //100 na dilei shomosha nei 
+    else if (year % 100 === 0 && year % 400){ //100 na dile o shomosha nei 
         return true;
     }
 
