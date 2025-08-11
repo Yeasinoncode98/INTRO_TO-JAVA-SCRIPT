@@ -18,4 +18,7 @@ function findAvgPrice(numbers) {
 }
 
 const avg = findAvgPrice(phones);
-console.log(avg.toFixed(2));
+// console.log(avg.toFixed(2));
+
+const resultAvg = parseFloat(avg.toFixed(2));
+console.log(resultAvg);
