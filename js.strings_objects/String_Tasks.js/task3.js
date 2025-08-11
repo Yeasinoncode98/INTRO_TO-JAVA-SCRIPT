@@ -10,3 +10,4 @@ else {
 }
 
 console.log(text.length);
+
