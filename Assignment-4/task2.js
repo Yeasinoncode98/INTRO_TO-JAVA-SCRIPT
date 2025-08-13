@@ -12,6 +12,6 @@ function onlyCharacter(str) {
   return final_word;
 }
 
-const str = onlyCharacter(" Hello World ");
+// const str = onlyCharacter(" Hello World ");
 
-console.log(str);
+// console.log(str);
