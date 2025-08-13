@@ -1,9 +1,9 @@
-node/** Problem -01 ( Divide the Asset ) */
+node; /** Problem -01 ( Divide the Asset ) */
 var area = 15;
 var brother = 2;
 //write your code here
 
-var result = (area / brother);
+var result = area / brother;
 
 console.log(result);
 
@@ -13,54 +13,44 @@ console.log(result);
 var money = 9999;
 //write your code here
 
-if (money >= 25000){
-    console.log("Laptop");
+if (money >= 25000) {
+  console.log("Laptop");
+} else if (money >= 10000) {
+  console.log("Cycle");
+} else {
+  console.log("Chocolate");
 }
-
-else if (money >= 10000){
-    console.log("Cycle");
-}
-
-else {
-    console.log("Chocolate");
-}
-
 
 //....................................
 
 /** Problem -03 ( Medicine Planner ) */
-var lastDay = 6 ;
+var lastDay = 6;
 //write your code here
 
-for(let day = 1; day <= lastDay; day++){
-if(day % 3 === 0){
+for (let day = 1; day <= lastDay; day++) {
+  if (day % 3 === 0) {
     console.log(day + " - medicine");
-}
-
-else{
+  } else {
     console.log(day + " - rest");
+  }
 }
-
-}
-
 
 //...........................................
 //problem 4
 
-
-
 //.............................................
 
 /** Problem 05 - ( PH Email Generator )  */
-var student=
- { name: "mewo" ,
-     roll: 96 ,
-     department: "cse" ,
-};
+var student = { name: "mewo", roll: 96, department: "cse" };
 
 //write your code here
 
-var result = student.name.toLowerCase() + student.roll + '.' + student.department + "@ph.ac.bd";
+var result =
+  student.name.toLowerCase() +
+  student.roll +
+  "." +
+  student.department +
+  "@ph.ac.bd";
 
 console.log(result);
 
@@ -72,11 +62,10 @@ var startingSalary = 45000;
 //write your code here
 
 var growthRate = 1.05;
-for (var i = 1; i <= experience; i++){
-    startingSalary = startingSalary * growthRate;
+for (var i = 1; i <= experience; i++) {
+  startingSalary = startingSalary * growthRate;
 }
 
 var result = startingSalary.toFixed(2);
 console.log(result);
-
 
