@@ -23,6 +23,3 @@ function bestTeam(player1, player2) {
 
   return "Tie";
 }
-
-
-

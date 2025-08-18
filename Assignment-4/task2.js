@@ -1,7 +1,5 @@
-// Problem-02 : Clean & Capitalize Characters
-
 function onlyCharacter(str) {
-  if (typeof str !== "string") {
+  if (typeof str !== "string" || !str || Array.isArray(str)) {
     return "Invalid";
   }
 
@@ -11,7 +9,3 @@ function onlyCharacter(str) {
 
   return final_word;
 }
-
-// const str = onlyCharacter(" Hello World ");
-
-// console.log(str);

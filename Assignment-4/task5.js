@@ -1,5 +1,3 @@
-//Problem-05: Exam Result Report Generator
-
 function resultReport(marks) {
   if (!Array.isArray(marks)) {
     return "Invalid";
@@ -33,7 +31,4 @@ function resultReport(marks) {
     pass: passCount,
     fail: failCount,
   };
-  
 }
-
-// console.log(resultReport(100));

@@ -1,4 +1,3 @@
-//Task 1 (Train TT)
 
 function totalFine(fare) {
     let total ;
@@ -13,5 +12,3 @@ function totalFine(fare) {
 
 }
 
-// const total = totalFine(552);
-// console.log(total);

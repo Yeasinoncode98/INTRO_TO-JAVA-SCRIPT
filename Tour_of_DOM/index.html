@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of DOM</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+        h1 {
+            color: gold;
+        }
+
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bold {
+            font-weight: 700;
+        }
+
+        .big {
+            font-size: 3em;
+        }
+
+
+        #food-title {
+            color: green;
+            /* background-color: lightgreen; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>This is my header no banner</h1>
+    </header>
+
+    <main id="main-container">
+        <section id="old-dhaka" class="songs">
+
+            <h1>Welcome to my DOM</h1>
+            <p>
+                Lorem ipsum dolor <span>Oli Goli</span> sit amet <span>KopKop</span>consectetur adipisicing elit. Dolor
+                repellat culpa rerum id repudiandae, sed voluptatum reiciendis nam quasi! Rerum accusamus voluptas
+                excepturi aperiam adipisci cupiditate molestiae animi, dicta sint?
+            </p>
+            <h1>asgasg asgas <span>Some Text</span></h1>
+            <ul>
+                <li class="foreign">Shafayet</li>
+                <li>Bonobash</li>
+                <li id="band" class="">Jalali Set</li>
+                <li class="international">Dubai</li>
+                <li>Dom de re Baba</li>
+            </ul>
+        </section>
+
+        <section class="food">
+            <h1 id="food-title">Foods I love</h1>
+            <ul>
+                <li>Rice</li>
+                <li>Potato</li>
+                <li>Fish</li>
+                <li>Burger</li>
+                <li class="foreign">Pizza</li>
+                <li class="foreign">Wheat</li>
+                <li class="foreign">Pasta</li>
+                <li class="foreign">LilPump</li>
+            </ul>
+        </section>
+
+        <!-- <p>Kop</p>
+        <p>Amar kopal kharap Vai onek</p>
+
+        <ul>
+            <p class="uzi-vert">Lil-camp</p>
+            <p class="uzi-vert">Lil-kop</p>
+        </ul> -->
+
+        <section id="players-container">
+            <h1>Players</h1>
+            <ul id="player-list">
+                <li>Messi</li>
+                <li>Pele</li>
+                <li>Ronaldo</li>
+                <li>Mbappe</li>
+            </ul>
+        </section>
+
+    </main>
+
+
+    <script>
+        // console.log("Hello from JavaScript")
+        // console.log("Hello bole chole gelo")
+        // console.log("Document Object Model");
+
+
+        const student = {
+            name: "Abul Mia",
+            id: 121,
+            study: function (subject) {
+                // console.log("Studying subject: ", subject);
+            }
+        }
+
+        // document.getElementsByTagName
+
+        const liCollection = document.getElementsByTagName('li')
+        console.log(liCollection);
+
+        for (const li of liCollection) {
+            // console.log(li.innerText);
+        }
+
+
+        // All h1 Tags
+
+        const allHeadings = document.getElementsByTagName('h1');
+        for (const heading of allHeadings) {
+            // console.log(heading.innerText);
+        }
+
+
+        const allP = document.getElementsByTagName('p');
+        for (const p of allP) {
+            // console.log(p.innerText);
+        }
+
+
+        //Get By Id
+
+        const foodTitleH1 = document.getElementById('food-title');
+        // console.log(foodTitleH1.innerText);
+
+        foodTitleH1.innerText = "Foods i love to eat and more"
+
+        const bandElement = document.getElementById("band");
+        bandElement.innerText = "Jalali Set Kop"
+
+        //get elements by class name 
+
+        const foreignElements = document.getElementsByClassName('foreign');
+        // console.log(foreignElements);
+
+        for (const element of foreignElements) {
+            // console.log(element.innerText);
+        }
+
+        const rapper = document.getElementsByClassName('uzi-vert');
+
+        console.log(rapper);
+        for (const rap of rapper) {
+            // console.log(rap.innerText);
+        }
+
+        // Single kowke lagle id set kore khuje ber korbo
+
+        //onekgula ke eksathe lagle class die ber kore anbo
+
+        //class ke khujer na pele show korbe faka array
+
+        //id ke khuje na pele bolbe null
+
+
+
+        //Query Selector All
+
+        const spanElements = document.querySelectorAll("#old-dhaka  span");
+        for (const span of spanElements) {
+            // console.log(span.innerText);
+        }
+
+        //Queryselector sudhu ekta value dibe first jetake pabe oitake ke dibe 
+        //Na paile null dibe
+        //QuerySelecterAll shobgulake dibe
+        //Jodi na paile empty Array Box dibe
+
+
+
+
+
+    </script>
+
+    <script src="./js/hello.js"></script>
+    <script src="./js/cssinJS.js"></script>
+    <script src="./js/child.js"></script>
+    <script src="./js/append.js"></script>
+
+</body>
+
+</html>
