@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+</head>
+
+<body>
+    <h1>Dom Doma Dom Dom Events</h1>
+    <!-- Option 1 for event handler -->
+    <button onclick="console.log(7)">Click Me </button>
+    <button onclick="console.log(63)">Another Button</button>
+    <button onclick="console.log('i am clicked')">Kopex</button>
+    <input type="text">
+    <br>
+
+
+
+    <!-- option 2 for click event Handler -->
+
+    <button onclick="makeYellow()">Make Yellow</button>
+
+    <button onclick="makeRed()">Make Red</button>
+
+
+    <br>
+    <!-- option3: get element by id and then set oneClick to a function -->
+
+    <button id="btn-make-blue">Make Blue</button>
+
+    <button id="btn-make-purple">Make Purple</button>
+
+
+
+    <br>
+
+    <!-- Option 4 : addEventListener Recommended best one to add -->
+
+    <button id="btn-make-green">Make Green</button>
+    <button id="btn-make-gold">Make Gold</button>
+
+
+    <script>
+
+        // document.get ElementbyId().addEventListener('even type',handler);
+
+        document.getElementById("btn-make-green")
+            .addEventListener('click', function makeGreen() {
+                document.body.style.backgroundColor = "green";
+            })
+
+
+        document.getElementById('btn-make-gold').addEventListener('click', function makeGold() {
+            document.body.style.backgroundColor = "goldenrod";
+        })
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+    <script src="./js/events.js"></script>
+
+    <script>
+        const kop = document.getElementsByTagName('h1');
+
+    </script>
+
+</body>
+
+</html>
+
+<!-- Events ---- onclick="console.log('i am clicked')" -->
