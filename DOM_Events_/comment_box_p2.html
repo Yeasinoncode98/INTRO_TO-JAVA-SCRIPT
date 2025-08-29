@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <style>
+        .comment {
+
+            border: 2px solid blue;
+            background-color: lightcyan;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Awesome comment box write what in your mind</h1>
+    <section>
+        <h3>All comments here</h3>
+        <div id="comment-container">
+            <p class="comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, commodi!</p>
+            <p class="comment">Blanditiis ad porro soluta repellendus harum quo omnis ratione est?</p>
+            <p class="comment">Fugit inventore autem in praesentium, distinctio quisquam eos eum officia.</p>
+
+        </div>
+
+        <!-- <form> -->
+        <textarea name="" id="comment-text-box" cols="60" rows="5"></textarea><br>
+        <button id="btn-post-comment">Post Comment</button>
+        <!-- </form> -->
+    </section>
+
+
+    <script>
+
+        // Step 1 event handler added 
+
+        // document.getElementById('btn-post-comment')
+        //     .addEventListener('click', function () {
+
+        //         // console.log("ALl okk")
+
+        //         // step 2 get the text written in the comment textArea
+
+        //         const commentTextBox = document.getElementById('comment-text-box');
+        //         // console.log(commentTextBox);
+
+        //         const newComment = commentTextBox.value;
+        //         // console.log(newComment);
+
+        //         // step 3 : get the parent 
+
+
+        //         const commentContainer = document.getElementById("comment-container");
+        //         // console.log(commentContainer);
+
+        //         // step 4 create comment and set inner text
+
+        //         const commentElement = document.createElement('p');
+        //         commentElement.classList.add('comment');
+
+        //         commentElement.innerText = newComment;
+
+        //         // step 5 : append the new element to the parent node 
+
+        //         commentContainer.appendChild(commentElement);
+
+        //         // step 6 : clean the text area
+
+        //         commentTextBox.value = '';
+
+
+
+
+        //     })
+
+
+        // document.getElementById('btn-post-comment').addEventListener('click', function () {
+
+
+        //     // console.log("okay");
+
+        //     const commentBox = document.getElementById("comment-text-box");
+        //     // console.log(commentBox);
+
+        //     const newComment = commentBox.value;
+        //     // console.log(newComment);
+
+        //     const commentContainer = document.getElementById('comment-container');
+        //     console.log(commentContainer);
+
+
+        //     const commentP = document.createElement('p');
+        //     commentP.innerText = newComment;
+        //     commentP.classList.add('comment');
+
+        //     commentContainer.appendChild(commentP);
+
+        //     commentBox.value = "";
+
+
+        // })
+
+
+
+        document.getElementById('btn-post-comment').addEventListener('click', function () {
+
+            // console.log("okay")
+
+            const commentBox = document.getElementById("comment-text-box");
+            // console.log(commentBox);
+
+            const newComment = commentBox.value;
+            // console.log(newComment);
+
+            const commentContainer = document.getElementById("comment-container");
+            // console.log(commentBox);
+
+            const commentP = document.createElement('p');
+
+            commentP.innerText = newComment;
+            commentP.classList.add('comment');
+            commentP.style.color = 'red';
+            commentP.style.textAlign = 'center';
+
+
+            commentContainer.appendChild(commentP);
+
+            commentBox.value = '';
+
+
+
+
+
+        })
+
+
+
+    </script>
+</body>
+
+</html>
