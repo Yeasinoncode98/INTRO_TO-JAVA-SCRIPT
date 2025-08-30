@@ -24,15 +24,27 @@ This repo is designed for beginners who want to build solid foundations, explore
 ## 🗂️ Folder Structure
 
 ```plaintext
-INTRODUCTION-TO-JAVA-SCRIPT/
-├── 01_variables/
-├── 02_operators/
-├── 03_conditions/
-├── 04_loops/
-├── 05_functions/
-├── 06_arrays_objects/
-├── 07_dom_events/
+INTRO_TO-JAVA-SCRIPT/
+├── Assignment-4/
+├── Assignment_3/
+├── Basic .js/
+├── DOM-Recap/
+├── DOM_Events_/
+├── ES6_INTRO/
+├── More_ES6_About_JS/
+├── Tour_of_DOM/
+├── js.array/
+├── js.array_more/
+├── js.function/
+├── js.function_Video/
+├── js.loops/
+├── js.problems-part1/
+├── js.problems-part2/
+├── js.session_live_by_Ferdous_Zihad_Sir/
+├── js.strings_objects/
+├── js_conditionals_/
 └── README.md
+
 
 /**
 ```
