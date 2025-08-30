@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" alt="Coding Animation" width="300"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHYzcmY3cjJ5anh4cTVqMjR6ZDRmYjQ3bDlybGdhcDFvdGFkNW5yZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DX1cytoIQvnmgqBlQ3/giphy.gif" alt="JavaScript Animation" width="300"/>
 </p>
+
 
 # 🚀 INTRODUCTION TO JAVASCRIPT
 
